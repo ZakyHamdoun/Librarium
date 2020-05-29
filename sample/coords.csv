@@ -1,0 +1,3 @@
+ID;inProj;outProj;x;y;alwaysxy;direction_pos
+1;EPSG:4326;EPSG:26917;-80;70;True;FORWARD
+2;EPSG:4326;EPSG:26917;-40;70;True;FORWARD
