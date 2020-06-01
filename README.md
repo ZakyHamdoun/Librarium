@@ -1,6 +1,6 @@
 # Librarium
 
-Librarium est un logiciel conçu par Walid Hamdoun pour convertir des données géographiques entre plusieurs systèmes de coordonnées. (GRS).
+Librarium est un logiciel conçu par ____ pour convertir des données géographiques entre plusieurs systèmes de coordonnées. (GRS).
 
 ## Installation
 
