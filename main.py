@@ -224,7 +224,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Librarium - Fait par Walid Hamdoun"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Librarium"))
         self.label.setText(_translate("MainWindow", "Convertisseur de coordonnées. Fait Par Walid Hamdoun"))
         self.label_2.setText(_translate("MainWindow", "Conversion à partir d\'un fichier."))
         self.label_3.setText(_translate("MainWindow", "Souhaitez-vous convertir les coordonnées à partir d\'un fichier ? "))
