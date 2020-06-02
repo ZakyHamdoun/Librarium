@@ -20,23 +20,23 @@ pip install pyproj --upgrade
 * Pour la conversion 14 param, il faut obligatoirement mettre les GRS en format int / float. En gros, il faut écrire un nombre. Si vous souhaitez écrire une chaîne de caractères. Alors il faut changer enlever le "float" à la ligne correspondante.
 * Si vous souhaitez convertir des fichiers entiers. Il faut qu'ils soient en format .csv. Comma Separated Values. Les fichiers doivent suivre les dispositions suivantes :
 
-- Conversion simple :
-x;y
--80;70
--80;70
-...
-
-- Conversion 14 param :
-x;y;z
-4213551.1590;162494.2700;4769661.5530
-4213551.1590;162494.2700;4769661.5530
-...
-
-- Conversion Géo :
-x;y;z
-4213551.1590;162494.2700;4769661.5530
-4213551.1590;162494.2700;4769661.5530
-
+- Conversion simple :  
+x;y  
+-80;70  
+-80;70  
+...  
+  
+- Conversion 14 param :  
+x;y;z  
+4213551.1590;162494.2700;4769661.5530  
+4213551.1590;162494.2700;4769661.5530  
+...  
+  
+- Conversion Géo :  
+x;y;z  
+4213551.1590;162494.2700;4769661.5530  
+4213551.1590;162494.2700;4769661.5530  
+  
 * Notez que les points virgules peuvent être remplacés par des virgules. Lors de la sélection sur l'interface, écrire "point-virgule" ou "virgule".
 * Il est obligatoire de rajouter une première ligne à chaque fichier selon les dispositions montrées dans le README.md
 
