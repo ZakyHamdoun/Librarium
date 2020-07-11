@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\zakou\Desktop\Librarium-master\Interface.ui'
-#
 # Created by: PyQt5 UI code generator 5.13.0
 #
 # WARNING! All changes made in this file will be lost!
@@ -274,7 +272,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "Convertisseur de coordonnées. Fait Par Walid Hamdoun"))
+        self.label.setText(_translate("MainWindow", "Convertisseur de coordonnées."))
         self.label_2.setText(_translate("MainWindow", "Conversion à partir d\'un fichier."))
         self.label_3.setText(_translate("MainWindow", "Souhaitez-vous convertir les coordonnées à partir d\'un fichier ? "))
         self.label_4.setText(_translate("MainWindow", "Si oui, merci de bien vouloir entrer le nom du fichier ci-dessous. "))
