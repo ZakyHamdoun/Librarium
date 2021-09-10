@@ -388,7 +388,7 @@ class Ui_MainWindow(object):
         
         if sep_valeurs == "point-virgule":
             coords = pd.read_csv(fichier, sep = ";") #Charge le fichier.
-        if sep_valeurs == "virgule":
+        elif sep_valeurs == "virgule":
             coords = pd.read_csv(fichier, sep = ",") #Charge le fichier.
         for index, row in coords.iterrows():
             coords_conv = convertCRScoords_Quato(inProj, outProj, row["x"], row["y"], row["z"], time_acquisition, direction_pos)
